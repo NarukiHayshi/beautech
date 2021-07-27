@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/','CafesController@index');
+Route::get('cafes.menu','CafesController@menu');
+Route::get('cafes.news','CafesController@news');
+Route::get('cafes.contact','CafesController@contact');
+
+Route::post('cafes.menu','CafesController@menu');
