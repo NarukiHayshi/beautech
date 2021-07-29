@@ -203,6 +203,45 @@ aside p{
 .sub-menu a:hover{
     color:#0bd;
 }
+/*SNS*/
+#sns{
+    background:#faf7f0;
+    padding:4% 0;
+}
+#sns .wrapper{
+    display: flex;
+    justify-content:space-between;
+}
+#sns .sub-title{
+    margin-bottom:30px;
+}
+.sns-box{
+    width:30%;
+    
+}
+#location{
+    padding:4% 0;
+}
+
+
+.location-info p{
+    padding:12px 10px;
+}
+.location-info{
+    width:22%;
+}
+.location-map{
+    width:74%;
+}
+#location .wrapper
+ {
+    display:flex;
+    justify-content:space-between;
+}
+iframe{
+    width:100%;
+}
+
 
 
 /*モバイル版
@@ -311,6 +350,9 @@ aside p{
         width:100%;
         
     }
+    .location-info{
+        width:100%;
+    }
     .sns-box{
         margin-bottom:30px;
         
@@ -401,39 +443,6 @@ input[type="submit"]{
     cursor:pointer;
     line-height: 1;
 }
-#location{
-    padding:4% 0;
-}
-#location .wrapper{
-    display:flex;
-    justify-content:space-between;
-}
-.location-info{
-    width:22%;
-}
-.location-info p{
-    padding:12px 10px;
-}
-.location-map{
-    width:74%;
-}
-ifreme{
-    width:100%;
-}
 
-/*SNS*/
-#sns{
-    background:#faf7f0;
-    padding:4% 0;
-}
-#sns .wrapper{
-    display: flex;
-    justify-content:space-between;
-}
-#sns .sub-title{
-    margin-bottom:30px;
-}
-.sns-box{
-    width:30%;
-    
-}
+
+

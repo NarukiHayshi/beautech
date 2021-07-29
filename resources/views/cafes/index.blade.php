@@ -50,7 +50,7 @@
                 <h2 class="page-title">We'll Make your day</h2>
                 <p>おしゃれなカフェで癒されてみませんか？無添加の食材で体の中からリフレッシュ。</p>
                 <a class="button" href="cafes.menu">メニューを見る</a>
-                {
+                
                 
             </div>
         </div>
