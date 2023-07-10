@@ -28,28 +28,29 @@
                 .timer span {
                     font-size: 72px;
                 }
-                #home{
-                    background-image:url({{ asset('images/main-bg.jpg') }});
+                .home-content{
+                    background-size:cover;
+                    background-image:url("https://st2.depositphotos.com/1643295/11649/i/450/depositphotos_116491376-stock-photo-housewife-wiping-table-with-spray.jpg");
                 }
         </style>
         
-        <div id="home" class="big-bg">
+        <div id="" class="big-bg">
             <header class="page-header wrapper">
-                <h1><a href="index.html"><img class="logo" src="/images/logo.svg" alt="WCBカフェホーム"></a></h1>
+                <h1><a href="/"><img class="logo" src="/images/logo.JPG" alt="WCBカフェホーム"></a></h1>
                     <nav>
                         <ul class="main-nav">
-                            <li><a href="cafes.news">News</a></li>
-                            <li><a href="cafes.menu">Menu</a></li>
-                            <li><a href="cafes.contact">Contact</a></li>
+                            <li><a href="cafes.news">業務内容</a></li>
+                            <li><a href="cafes.menu">営業経歴</a></li>
+                            <li><a href="cafes.contact">会社概要</a></li>
                         </ul>
                     </nav>
             </header>
             
             <div class="home-content wrapper">
                 <p><span id="time"></span></p>
-                <h2 class="page-title">We'll Make your day</h2>
-                <p>おしゃれなカフェで癒されてみませんか？無添加の食材で体の中からリフレッシュ。</p>
-                <a class="button" href="cafes.menu">メニューを見る</a>
+                <h2 class="page-title">（有）ビューテック</h2>
+                <p>美装工事と内装工事で暮らしやすい住まいに。</p>
+                <a class="button" href="cafes.news">企業説明へ</a>
                 
                 
             </div>

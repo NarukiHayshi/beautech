@@ -67,10 +67,18 @@ img{
 
 /*見出し*/
 .page-title{
-    font-size:5rem;
+    font-size:4rem;
     font-family:'Philosopher', serif;
     text-transform:uppercase;
     font-weight:normal;
+    text-align: center;
+}
+.page-title p{
+    font-size:30px;
+    font-family:'Philosopher', serif;
+    font-weight:normal;
+    text-align: center;
+    text-transform:uppercase;
 }
 
 /*ボタン*/
@@ -123,12 +131,8 @@ footer p{
     color:#fff;
     font-size:0.875rem;
 }
-article {
-    width:74%;
-}
-aside {
-    width:22%;
-}
+
+
 .news-contents{
     display:flex;
     justify-content:space-between;
@@ -168,8 +172,9 @@ aside {
     font-size:2rem;
     font-weight: normal;
 }
-.post-title, .post-cat{
+.post-title,  .post-cat{
     margin-left:120px;
+    text-align: left;
 }
 article img{
     margin-bottom: 20px;
@@ -241,8 +246,158 @@ aside p{
 iframe{
     width:100%;
 }
+ .gyomu {
+        
+        
+    }
+    .item{
+        background: #0bd;
+        color: #fff;
+        margin: 10px;
+       
+        
+    }
+　.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align:center;
+    margin:auto 0;
+    
+    
+    
+    
+}
+.tbody{
+    margin:auto;
+    
+}
+.table tr {
+    border-top: 1px solid #ACACAC;
+    border-bottom: 1px solid #ACACAC;
+}
+.table tr th,
+.table tr td {
+    padding: 20px 20px;
+    text-align: center;
+    vertical-align: top;
+}
+.table tr th {
+    width: 20%;
+    font-weight: bold;
+    background: #F2F2F3;
+}
+.table tr td {
+    width: 80%;
+}
+.table td{
+    background:white;
+}
 
 
+
+
+/* 装飾 */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 30px 40px;
+}
+
+　
+.post-cat{
+    font-size:40px;
+    text-align: left;
+}
+
+/*menu table*/
+
+.tablemenu{
+    
+    margin-bottom:20px;
+}
+.menu-table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 650px;
+  table-layout: fixed;
+  color: #4CAF50;
+}
+
+.menu-table tr {
+  background-color: #fff;
+  padding: .35em;
+  border-bottom: 1px dotted #8BC34A;
+}
+.menu-table tr:last-child{
+   border-bottom: 2px solid #18521b;
+}
+.menu-table th,
+.menu-table td {
+  padding: 1em 10px 1em 1em;
+}
+.menu-table tbody th {
+    color: #0f7d13;
+}
+.txt{
+   text-align: left;
+   font-size: .85em;
+}
+.price{
+   text-align: right;
+}
+@media screen and (max-width: 600px) {
+  .menu-table {
+    border: 0;
+    width:100%
+  }
+  .menu-table th{
+    display: block;
+    border-right: none;
+    border-bottom: 2px solid #0f7d13;
+    padding-bottom: .6em;
+    margin-bottom: .6em;
+
+  }
+  .menu-table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .menu-table tr {
+    display: block;
+    margin-bottom: 2em;
+        border-bottom: 2px solid #0f7d13;
+  }
+  
+  .menu-table td {
+    border-bottom: 1px solid #bbb;
+    display: block;
+    font-size: .8em;
+    text-align: center;
+    position: relative;
+    padding: .625em .625em .625em 4em;
+    border-right: none;
+  }
+  
+  .menu-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    position: absolute;
+    left: 10px;
+  }
+  
+  .menu-table td:last-child {
+    border-bottom: 0;
+  }
+}
 
 /*モバイル版
 ----------------------------------------*/
@@ -250,9 +405,10 @@ iframe{
 
 @media (max-width: 600px){
     .page-title{
-        font-size:2.5rem;
+        font-size:1.9rem;
+        
     }
-    
+}
     /*HEADER*/
     .main-nav{
         font-size: 1rem;
@@ -312,11 +468,11 @@ iframe{
     .post-title,.post-cat{
         margin-left:80px;
     }
-    
-    
+   
     /*MENU*/
     .menu-content{
         margin-top: 20px;
+        
     }
     .grid{
         display:grid;
@@ -331,12 +487,7 @@ iframe{
     #contact .page-title{
         margin-top:40px;
     }
-    input[type="text"],
-    input[type="email"],
-    textarea{
-        max-width:100%;
-        
-    }
+  
     
     /*店舗情報・地図・SNS*/
     #location .wrapper,
@@ -358,7 +509,7 @@ iframe{
         
     }
    
-}
+
 
 
 
@@ -443,6 +594,7 @@ input[type="submit"]{
     cursor:pointer;
     line-height: 1;
 }
+
 
 
 

@@ -14,67 +14,60 @@
     <body>
         <div id="news" class="big-bg">
             <header class="page-header wrapper">
-                <h1><a href="index.html"><img class="logo" src="images/logo.svg" alt="WCBカフェホーム"></a></h1>
+                <h1><a href="/"><img class="logo" src="images/logo.JPG" alt="WCBカフェホーム"></a></h1>
                     <nav>
                         <ul class="main-nav">
-                            <li><a href="cafes.news">News</a></li>
-                            <li><a href="cafes.menu">Menu</a></li>
-                            <li><a href="cafes.contact">Contact</a></li>
+                            <li><a href="cafes.news">業務内容</a></li>
+                            <li><a href="cafes.menu">営業経歴</a></li>
+                            <li><a href="cafes.contact">会社概要</a></li>
                         </ul>
                     </nav>
             </header>
             
             <div class="wrapper">
-                <h2 class="page-title">News</h2>
+                <h2 class="page-title">業務内容</h2>
             </div>
         </div>
         
             <div class="news-contents wrapper">
                 <article>
                     <header class="post-info">
-                        <h2 class="post-title">店内ギャラリーの絵が新しくなりました。</h2>
-                        <p class="post-date">3/30<span>2019</span></p>
-                        <p class="post-cat">カテゴリー:お店の紹介</p>
+                        <h2 class="post-title">住まいを豊かに。</h2>
+                        <p class="post-date">7/8<span>2023</span></p>
+                        
                     </header>
                     <img src="images/wall.jpg" alt="店内の様子">
                     <p>
-                        体優しい自然食を提供する、　WCB　CAFE。無添加の食材を利用したメニューが特徴です。
-                        おいしいブレンドコーヒーとヘルシーなオーガニックフードで体の内側から癒されてください。
-                        体優しい自然食を提供する、　WCB　CAFE。無添加の食材を利用したメニューが特徴です。
-                        おいしいブレンドコーヒーとヘルシーなオーガニックフードで体の内側から癒されてください。
-                    </p>
-                    <p>
-                        体優しい自然食を提供する、　WCB　CAFE。無添加の食材を利用したメニューが特徴です。
-                        おいしいブレンドコーヒーとヘルシーなオーガニックフードで体の内側から癒されてください。
-                        体優しい自然食を提供する、　WCB　CAFE。無添加の食材を利用したメニューが特徴です。
-                        おいしいブレンドコーヒーとヘルシーなオーガニックフードで体の内側から癒されてください。
-                        体優しい自然食を提供する、　WCB　CAFE。無添加の食材を利用したメニューが特徴です。
-                        おいしいブレンドコーヒーとヘルシーなオーガニックフードで体の内側から癒されてください。
-                    </p>
-                    <p>体に優しい自然食を提供する、WCB　CAFE。</p>
-                </article>
-                <aside>
-                    <h3 class="sub-title">カテゴリー</h3>
-                    <ul class="sub-menu">
-                        <li><a href="#">お店の紹介</a></li>
-                        <li><a href="#">期間限定メニュー</a></li>
-                        <li><a href="#">イベント</a></li>
-                        <li><a href="#">お客様との会話</a></li>
-                    </ul>
+                        (有)ビューテックでは主に内装工事と美装工事の施工を行なっています。
+                        　　<br>新築工事からリフォームなどが主な仕事内容です。
+                        　　<br>思わず自慢したくなるような家づくりの家づくりのお手伝いをさせていただきます。
+                        　　<br>古くなった内装を変えて気分を変えてみませんか？
+                        
+                    </p>    
+                    <p class="post-cat">業務内容の紹介</p>
+                        <ul class="gyomu">
+                            <li class="item">新築古屋美荘</li>
+                            <li class="item">外壁タイル洗浄</li>
+                            <li class="item">排水管洗浄</li>
+                            <li class="item">木部あく洗い</li>
+                            <li class="item">エアコン洗浄</li>
+                            <li class="item">カーペット洗浄</li>
+                            <li class="item">壁紙貼り替え</li>
+                            <li class="item">床材張り替え</li>
+                            <li class="item">新築内装工事</li>
+        
+                            
+                        </ul>
                     
-                    <h3 class="sub-title">このお店について</h3>
-                    <p>
-                        体に優しい自然食を提供する、WCB　CAFE。無添加の食材を利用したメニューが特徴です。
-                        おいしいブレンドコーヒーとヘルシーなオーガニックフードで体の内側から癒されてください。
-                    </p>
-                </aside>
+                </article>
+                
                 
                 
             </div>
             
             <footer>
                 <div class="wrapper">
-                    <p><small>&copy ; 20219 Manabox</small></p>
+                    <p><small>&copy ; 2023 Naruki</small></p>
                 </div>
             </footer>
     </body>
