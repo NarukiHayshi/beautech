@@ -2,7 +2,7 @@
 <html lang=ja>
     <head>
         <meta charset="UTF-8">
-        <title>WCB Cafe - CONTACT</title>
+        <title>（有）ビューテック- CONTACT</title>
         <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">

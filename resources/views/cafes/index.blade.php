@@ -2,8 +2,8 @@
 <html lang=ja>
     <head>
         <meta charset="UTF-8">
-        <title>WCB Cafe</title>
-        <meta name="description" content="ブレンドコーヒーとヘルシーなオーガニックフードを提供するカフェ">
+        <title>（有）ビューテック</title>
+        <meta name="description" content="内装工事と美装工事を請け負う京都の建築業者">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         
         <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
